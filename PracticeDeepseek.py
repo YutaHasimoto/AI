@@ -12,7 +12,7 @@ tokenizer = AutoTokenizer.from_pretrained(model_name)
 print("Model loaded successfully!")
 
 # プロンプトを設定するにゃ
-prompt = "Where is the capital of Japan?"
+prompt = input("プロンプトを入力してにゃ：")
 
 messages = [
     {"role": "user", "content": prompt}
